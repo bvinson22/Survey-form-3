@@ -1,0 +1,73 @@
+<link rel="stylesheet" href="styles.css">
+<h1 id="title">Wanna Join my Club?</h1>
+<p id="description">We have cookies!</p>
+
+<form id="survey-form">
+  <div class="input-element">
+  <label placeholder="name" id="name-label">
+    Name  
+    </label>
+  <input placeholder="Name" id="name" type="text" required/>
+ </div>
+
+ <div class="input-element">
+ <label placeholder="Email" id="email-label">
+    Email  
+    </label>
+  <input placeholder="email" id="email" type="email" required/>
+ </div>
+
+ <div class="input-element">
+ <label placeholder="number" id="number-label">
+    Age  
+    </label>
+  <input placeholder="age" id="number" type="number" min="13" max="100" id="number" required/>
+ </div>
+ <div class="divider"></div>
+ <div class="input-element">
+  <label id="select-label">
+    
+    How did you find out about us?  
+    </label>
+  <select id="dropdown">
+    <option>Tiktok</option>
+    <option>Facebook</option>
+    <option>Instagram</option>
+    <option>Other</option>
+  </select>
+ </div>
+ <div class="divider"></div>
+ <div class="input-elements">
+   <label>Mostly interested in: (Choose one)</label>
+   <div>
+   <label><input type="radio" name="interested" value="learning"/>Learning</label>
+   </div>
+   <div>
+   <label><input type="radio" name="interested" value="having-fun"/>Having Fun</label>
+   </div>
+ </div>
+ <div class="divider"></div>
+
+ <label name=>Contact Me About:</label>
+ 
+  <input type="checkbox" name="future" value="future"> Future Crying Sessions
+  </label><br>
+  <label>
+    <input type="checkbox" name="nap" value="nap"> Where to go nap
+  </label><br>
+  <label>
+    <input type="checkbox" name="hope" value="hope"> Hope for the Future
+  </label><br>
+  <label>
+    <input type="checkbox" name="newsletters" value="newsletters"> Newsletters
+  </label><br>
+  <div class="divider"></div>
+   <label for="bio" name="bio" >Tell us about yourself:</label>
+   <textarea type="text" input placeholder="I love crying about how hard coding is!"></textarea>
+ </div>
+ <div>
+      <input type="submit" value="Submit" id="submit"/>
+   </div>
+
+
+</form>
